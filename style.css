@@ -1,0 +1,142 @@
+html {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    /* text-align:left; */
+    font-family:sans-serif;
+    vertical-align:baseline;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/8PSwKpGT/HTML17.jpg);
+    overflow:auto;
+    color:#333333;
+    /* background-repeat:no-repeat; */
+    background-size:cover;
+        /* line-height:1; */
+}
+
+ul li {
+    list-style:none;
+    margin-left:25px;
+}
+
+h1 {
+    font-size:45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    color:rgb(86, 88, 119);
+    border-bottom:1.2px solid whitesmoke;
+}
+
+.container {
+    width:960px;
+    margin:auto;
+    background-color:lightsteelblue;
+}
+
+.header {
+    padding:20px;
+    padding-bottom:10px;
+}
+
+.header ul li {
+    margin-top: -300px;
+    display:inline-block;
+    justify-content:flex-start;
+}
+
+.link {
+    background-color:rgb(24, 6, 19);
+    padding:6px;
+}
+
+.link a {
+    text-decoration:none;
+    color:white;
+}
+
+.link a:hover {
+    border-bottom:2px solid whitesmoke;
+    margin-bottom:4px;
+}
+
+.hero {
+    background-image: url(https://i.postimg.cc/pTqWYxsy/HTML18.jpg);
+    background-size:cover;
+    /* background-position:0 px -180px; */
+    /* background-repeat:no-repeat; */
+    width:960px;
+    height:330px;
+    margin-bottom:12px;
+}
+
+.content {
+    padding-bottom:50px;
+    float:left;
+    width:600px;
+}
+
+.content h2, p {
+    margin-left:14px
+}
+
+.content h2 {
+    margin-left:35px;
+}
+
+.writer {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin-top:-16px;
+    margin-left:35px;
+    margin-bottom:32px;
+}
+
+.content p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+    float:right;
+    margin-right:14px;
+    width:300px;
+}
+
+.sidebar img {
+    width:100px;
+    height:120px;
+    float:left;
+    margin-right:10px;
+    border:2px solid whitesmoke;
+}
+
+.sidebar h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size:22px;
+    margin-bottom: 3px;
+}
+
+.sidebar p {
+    font:14px/18px georgia;
+}
+
+.clear {
+    clear:both;
+}
+
+.footer {
+    background-color:rgb(24, 6, 19);
+    font-family:sans-serif;
+    text-align:center;
+    padding:15px;
+    color:white;
+}
