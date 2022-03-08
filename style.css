@@ -17,29 +17,29 @@ body {
         /* line-height:1; */
 }
 
-ul li {
-    list-style:none;
-    margin-left:25px;
-}
-
 h1 {
     font-size:45px;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-a {
+/* a {
     text-decoration:none;
-}
+} */
 
 a:hover {
     color:rgb(86, 88, 119);
     border-bottom:1.2px solid whitesmoke;
 }
 
+p {
+    line-height:1.4;
+}
+
 .container {
     width:960px;
     margin:auto;
+    border:3px solid black;
     background-color:lightsteelblue;
 }
 
@@ -52,6 +52,11 @@ a:hover {
     margin-top: -300px;
     display:inline-block;
     justify-content:flex-start;
+}
+
+.link ul li {
+    list-style:none;
+    margin-left:25px;
 }
 
 .link {
@@ -85,12 +90,25 @@ a:hover {
     width:600px;
 }
 
-.content h2, p {
-    margin-left:14px
+.content p {
+    margin-left:16px
 }
 
-.content h2 {
-    margin-left:35px;
+.content p {
+    text-indent:40px;
+}
+
+.content h2, h3{
+    margin-left:55px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content h4 {
+    margin-left:25px;
+}
+
+.content ul li {
+    line-height:1.5;
 }
 
 .writer {
@@ -112,8 +130,8 @@ a:hover {
 }
 
 .sidebar img {
-    width:100px;
-    height:120px;
+    width:130px;
+    height:150px;
     float:left;
     margin-right:10px;
     border:2px solid whitesmoke;
@@ -127,6 +145,14 @@ a:hover {
 
 .sidebar p {
     font:14px/18px georgia;
+    text-indent:25px;
+    margin-left:10px;
+}
+
+.sidebarimg img {
+    width:300px;
+    height:300px;
+    margin-bottom:250px;
 }
 
 .clear {
@@ -139,4 +165,25 @@ a:hover {
     text-align:center;
     padding:15px;
     color:white;
+}
+
+.footer a {
+    color:steelblue;
+    background-color:transparent;
+}
+
+.footer a:hover {
+    border-bottom:2px steelblue;
+}
+
+.footer a:visited {
+    color:steelblue;
+}
+
+.marginLeft {
+    margin-left:25px;
+}
+
+.marginRight {
+    margin-right:25px;
 }
